@@ -1,6 +1,7 @@
 on:
-  label:
-    types: [created]
+  issues:
+    types: [opened, labeled]
+
 
 jobs:
   print_hello:
